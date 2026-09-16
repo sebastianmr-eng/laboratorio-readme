@@ -13,13 +13,14 @@ Diseñada con una interfaz intuitiva para estudiantes y profesionales que requie
 - [Descripción](#descripción)
 - [Instalación](#instalación)
 - [Uso](#uso)
+- [Contribuidores](#contribuidores)
 
 ## Instalación
 
 ```bash
 git clone (https://github.com/TU-USUARIO/laboratorio-readme.git)
 cd laboratorio-readme
-code  .
+npm install
 ```
 
 ## Estado de funcionalidades
