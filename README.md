@@ -1,30 +1,50 @@
-# Laboratorio README
+# Calculadora
 
 ![Version](https://img.shields.io/badge/version-1.0-blue)
-Proyecto de práctica para aprender Markdown avanzado en GitHub.
+
+Una aplicación web interactiva que permite realizar operaciones matemáticas básicas y funciones científicas avanzadas.
 
 ## Descripción
 
-Este repositorio documenta paso a paso mi aprendizaje de Markdown:
-tablas, listas de tareas, badges y diagramas.
+Diseñada con una interfaz intuitiva para estudiantes y profesionales que requieren cálculos rápidos en el navegador.
+
+## Tabla de contenidos
+
+- [Descripción](#descripción)
+- [Instalación](#instalación)
+- [Uso](#uso)
+
+## Instalación
+
+```bash
+git clone (https://github.com/TU-USUARIO/laboratorio-readme.git)
+cd laboratorio-readme
+code  .
+```
 
 ## Estado de funcionalidades
 
-| Función  | Estado      |
-| -------- | ----------- |
-| Login    | Listo       |
-| Reportes | En progreso |
+| Función                                      | Estado      |
+| -------------------------------------------- | ----------- |
+| Operaciones básicas (Suma, Resta, Mult, Div) | Listo       |
+| Funciones trigonométricas (Sin, Cos, Tan)    | Listo       |
+| Historial de operaciones                     | En progreso |
 
 ## Pendientes
 
-- [x] Diseño de la base de datos
-- [ ] Pruebas unitarias
+- [x] Implementación de interfaz gráfica
+- [ ] Soporte para cálculo de matrices
+- [ ] Exportación de historial a PDF
 
 ## Arquitectura
 
 ```mermaid
 graph LR
-    A[Usuario] --> B[Frontend]
-    B --> C[API]
-    C --> D[(Base de datos)]
+    A[Usuario] --> B[Interfaz UI]
+    B --> C[Motor de Cálculo]
+    C --> D[(Historial Local)]
 ```
+
+## Contribuidores
+
+- **Sebastian Mamani** - [@tu-usuario](https://github.com/sebastianmr-eng)
